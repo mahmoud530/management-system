@@ -1,0 +1,109 @@
+/* 🌐 إعداد عام للصفحة */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #212529;
+  line-height: 1.6;
+}
+
+/* 🎨 حاوية النموذج */
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: linear-gradient(135deg, #fff, #fef2f2);
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* ✨ تأثير عند تمرير الماوس */
+.form-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* 📝 عنوان النموذج */
+.form-container h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0d6efd;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+/* خط تحت العنوان */
+.form-container h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* 📌 عناصر الإدخال */
+.form-container .form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 12px 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* تأثير عند التركيز */
+.form-container .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.25);
+  outline: none;
+}
+
+/* 🔘 الأزرار */
+.form-container .btn {
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* زر رئيسي */
+.form-container .btn-primary {
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  border: none;
+}
+
+.form-container .btn-primary:hover {
+  background: linear-gradient(135deg, #0b5ed7, #0a58ca);
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(13, 110, 253, 0.25);
+}
+
+
+
+/* زر ثانوي */
+.form-container .btn-secondary {
+  background: #6c757d;
+  border: none;
+}
+
+.form-container .btn-secondary:hover {
+  background: #5a6268;
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    margin: 30px 15px;
+    padding: 25px 20px;
+  }
+  .form-container h3 {
+    font-size: 1.5rem;
+  }
+}
