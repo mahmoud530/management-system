@@ -26,12 +26,12 @@ A simple **PHP & MySQL** based employee management system with authentication (L
 ---
 
 ## 🛠️ Technologies Used
-- **PHP 8**
-- **MySQL / MariaDB**
+- **PHP**
+- **MySQL**
 - **HTML5 / CSS3**
 - **Bootstrap 5**
 - **JavaScript / AJAX**
 
 ---
 
-## 📂 Project Structure
+
