@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#2c3e50" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg-gradient)" />
+  
+  <!-- Suit -->
+  <rect x="100" y="150" width="100" height="150" fill="#2c3e50" />
+  <rect x="120" y="150" width="60" height="30" fill="#fff" />
+  <rect x="140" y="150" width="20" height="70" fill="#fff" />
+  
+  <!-- Neck -->
+  <rect x="140" y="120" width="20" height="30" fill="#f5d0a9" />
+  
+  <!-- Head -->
+  <circle cx="150" cy="90" r="50" fill="#f5d0a9" />
+  
+  <!-- Hair -->
+  <path d="M150 40 Q100 40 100 90 Q100 110 120 110 L180 110 Q200 110 200 90 Q200 40 150 40 Z" fill="#4a2c0f" />
+  
+  <!-- Eyes -->
+  <ellipse cx="130" cy="85" rx="8" ry="5" fill="#fff" />
+  <ellipse cx="170" cy="85" rx="8" ry="5" fill="#fff" />
+  <circle cx="130" cy="85" r="3" fill="#2c3e50" />
+  <circle cx="170" cy="85" r="3" fill="#2c3e50" />
+  
+  <!-- Eyebrows -->
+  <path d="M120 75 Q130 70 140 75" stroke="#4a2c0f" stroke-width="2" fill="none" />
+  <path d="M160 75 Q170 70 180 75" stroke="#4a2c0f" stroke-width="2" fill="none" />
+  
+  <!-- Nose -->
+  <path d="M150 85 L145 100 L155 100" fill="#f5d0a9" />
+  
+  <!-- Mouth -->
+  <path d="M130 110 Q150 120 170 110" stroke="#d35400" stroke-width="2" fill="none" />
+  
+  <!-- Tie -->
+  <path d="M150 150 L140 180 L150 210 L160 180 Z" fill="#3498db" />
+</svg>

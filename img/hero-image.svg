@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#2c3e50" stop-opacity="0.1" />
+    </linearGradient>
+    
+    <linearGradient id="screen-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#2c3e50" />
+    </linearGradient>
+    
+    <linearGradient id="code-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f0f0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shape -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" rx="20" />
+  
+  <!-- Laptop Base -->
+  <rect x="150" y="250" width="300" height="20" rx="5" fill="#2c3e50" />
+  <rect x="290" y="270" width="20" height="10" fill="#2c3e50" />
+  
+  <!-- Laptop Screen -->
+  <rect x="175" y="100" width="250" height="150" rx="5" fill="#2c3e50" />
+  <rect x="185" y="110" width="230" height="130" rx="3" fill="url(#screen-gradient)" />
+  
+  <!-- Code on Screen -->
+  <rect x="195" y="120" width="210" height="110" rx="2" fill="url(#code-gradient)" />
+  
+  <!-- Code Lines -->
+  <rect x="205" y="130" width="140" height="5" rx="2" fill="#3498db" opacity="0.7" />
+  <rect x="205" y="145" width="120" height="5" rx="2" fill="#3498db" opacity="0.5" />
+  <rect x="225" y="145" width="20" height="5" rx="2" fill="#e74c3c" />
+  
+  <rect x="205" y="160" width="160" height="5" rx="2" fill="#3498db" opacity="0.6" />
+  <rect x="235" y="160" width="30" height="5" rx="2" fill="#2ecc71" />
+  
+  <rect x="205" y="175" width="130" height="5" rx="2" fill="#3498db" opacity="0.8" />
+  <rect x="205" y="190" width="150" height="5" rx="2" fill="#3498db" opacity="0.6" />
+  <rect x="255" y="190" width="40" height="5" rx="2" fill="#f39c12" />
+  
+  <rect x="205" y="205" width="100" height="5" rx="2" fill="#3498db" opacity="0.5" />
+  
+  <!-- Floating Elements -->
+  <!-- Gear Icon -->
+  <circle cx="100" cy="100" r="25" fill="#3498db" opacity="0.8" />
+  <circle cx="100" cy="100" r="15" fill="#ffffff" />
+  <circle cx="100" cy="100" r="5" fill="#3498db" />
+  <path d="M100 75 L105 80 L95 80 Z" fill="#ffffff" />
+  <path d="M100 125 L105 120 L95 120 Z" fill="#ffffff" />
+  <path d="M75 100 L80 105 L80 95 Z" fill="#ffffff" />
+  <path d="M125 100 L120 105 L120 95 Z" fill="#ffffff" />
+  
+  <!-- Code Brackets -->
+  <text x="500" y="150" font-family="monospace" font-size="60" fill="#3498db" opacity="0.8">{</text>
+  <text x="500" y="220" font-family="monospace" font-size="60" fill="#3498db" opacity="0.8">}</text>
+  
+  <!-- Database Icon -->
+  <ellipse cx="100" cy="300" rx="30" ry="10" fill="#3498db" opacity="0.8" />
+  <rect x="70" y="300" width="60" height="40" fill="#3498db" opacity="0.8" />
+  <ellipse cx="100" cy="340" rx="30" ry="10" fill="#3498db" opacity="0.8" />
+  <line x1="70" y1="300" x2="70" y2="340" stroke="#ffffff" stroke-width="2" />
+  <line x1="130" y1="300" x2="130" y2="340" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Cloud Icon -->
+  <circle cx="500" cy="300" r="20" fill="#3498db" opacity="0.6" />
+  <circle cx="525" cy="290" r="15" fill="#3498db" opacity="0.6" />
+  <circle cx="545" cy="300" r="20" fill="#3498db" opacity="0.6" />
+  <circle cx="520" cy="315" r="15" fill="#3498db" opacity="0.6" />
+  <rect x="500" y="300" width="45" height="20" fill="#3498db" opacity="0.6" />
+  
+  <!-- Small Decorative Elements -->
+  <circle cx="50" cy="50" r="5" fill="#3498db" opacity="0.5" />
+  <circle cx="70" cy="60" r="3" fill="#3498db" opacity="0.5" />
+  <circle cx="40" cy="70" r="4" fill="#3498db" opacity="0.5" />
+  
+  <circle cx="550" cy="50" r="5" fill="#3498db" opacity="0.5" />
+  <circle cx="530" cy="60" r="3" fill="#3498db" opacity="0.5" />
+  <circle cx="560" cy="70" r="4" fill="#3498db" opacity="0.5" />
+  
+  <circle cx="50" cy="350" r="5" fill="#3498db" opacity="0.5" />
+  <circle cx="30" cy="360" r="3" fill="#3498db" opacity="0.5" />
+  <circle cx="60" cy="370" r="4" fill="#3498db" opacity="0.5" />
+</svg>
