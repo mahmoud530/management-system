@@ -10,7 +10,7 @@ A simple **PHP & MySQL** based employee management system with authentication (L
   - Login/Logout system with sessions.
 - Roles:
   - `admin` / `super_admin`: full access.
-  - `user`: limited access to profile only.
+  - `user`: limited access to profile and he can take a look of our home page only.
 - Employees Management:
   - Add employees (linked with user accounts).
   - Upload and display employee profile images.
